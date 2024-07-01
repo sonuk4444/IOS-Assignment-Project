@@ -17,6 +17,7 @@
 		D8162E4F2C32C39A00128C69 /* TableViewApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8162E4E2C32C39A00128C69 /* TableViewApplicationUITests.swift */; };
 		D8162E512C32C39A00128C69 /* TableViewApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8162E502C32C39A00128C69 /* TableViewApplicationUITestsLaunchTests.swift */; };
 		D8162E5E2C32D99F00128C69 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8162E5D2C32D99F00128C69 /* TableViewController.swift */; };
+		D8162E602C32DAC100128C69 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8162E5F2C32DAC100128C69 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D8162E4E2C32C39A00128C69 /* TableViewApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewApplicationUITests.swift; sourceTree = "<group>"; };
 		D8162E502C32C39A00128C69 /* TableViewApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D8162E5D2C32D99F00128C69 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D8162E5F2C32DAC100128C69 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				D8162E2F2C32C39800128C69 /* SceneDelegate.swift */,
 				D8162E312C32C39800128C69 /* SplashViewController.swift */,
 				D8162E5D2C32D99F00128C69 /* TableViewController.swift */,
+				D8162E5F2C32DAC100128C69 /* CustomTableViewCell.swift */,
 				D8162E332C32C39800128C69 /* Main.storyboard */,
 				D8162E362C32C39A00128C69 /* Assets.xcassets */,
 				D8162E382C32C39A00128C69 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8162E322C32C39800128C69 /* SplashViewController.swift in Sources */,
+				D8162E602C32DAC100128C69 /* CustomTableViewCell.swift in Sources */,
 				D8162E2E2C32C39800128C69 /* AppDelegate.swift in Sources */,
 				D8162E302C32C39800128C69 /* SceneDelegate.swift in Sources */,
 				D8162E5E2C32D99F00128C69 /* TableViewController.swift in Sources */,
