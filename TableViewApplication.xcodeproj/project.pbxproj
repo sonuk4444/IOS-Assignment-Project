@@ -18,6 +18,8 @@
 		D8162E512C32C39A00128C69 /* TableViewApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8162E502C32C39A00128C69 /* TableViewApplicationUITestsLaunchTests.swift */; };
 		D8162E5E2C32D99F00128C69 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8162E5D2C32D99F00128C69 /* TableViewController.swift */; };
 		D8162E602C32DAC100128C69 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8162E5F2C32DAC100128C69 /* CustomTableViewCell.swift */; };
+		D8162E642C32DCD100128C69 /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = D8162E622C32DCD100128C69 /* transparent.png */; };
+		D8162E652C32DCD100128C69 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = D8162E632C32DCD100128C69 /* splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D8162E502C32C39A00128C69 /* TableViewApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D8162E5D2C32D99F00128C69 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D8162E5F2C32DAC100128C69 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D8162E622C32DCD100128C69 /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transparent.png; path = ../../../../Downloads/transparent.png; sourceTree = "<group>"; };
+		D8162E632C32DCD100128C69 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../../../../Downloads/splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		D8162E2C2C32C39800128C69 /* TableViewApplication */ = {
 			isa = PBXGroup;
 			children = (
+				D8162E612C32DCB600128C69 /* picture */,
 				D8162E2D2C32C39800128C69 /* AppDelegate.swift */,
 				D8162E2F2C32C39800128C69 /* SceneDelegate.swift */,
 				D8162E312C32C39800128C69 /* SplashViewController.swift */,
@@ -131,6 +136,15 @@
 				D8162E502C32C39A00128C69 /* TableViewApplicationUITestsLaunchTests.swift */,
 			);
 			path = TableViewApplicationUITests;
+			sourceTree = "<group>";
+		};
+		D8162E612C32DCB600128C69 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				D8162E632C32DCD100128C69 /* splash.png */,
+				D8162E622C32DCD100128C69 /* transparent.png */,
+			);
+			path = picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8162E642C32DCD100128C69 /* transparent.png in Resources */,
 				D8162E372C32C39A00128C69 /* Assets.xcassets in Resources */,
 				D8162E3A2C32C39A00128C69 /* Base in Resources */,
 				D8162E352C32C39800128C69 /* Base in Resources */,
+				D8162E652C32DCD100128C69 /* splash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
